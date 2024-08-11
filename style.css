@@ -1,11 +1,10 @@
-/* Basic reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Header and nav styles */
 header {
     position: fixed;
     top: 0;
@@ -35,19 +34,13 @@ nav ul li a {
     display: block;
     transition: background-color 0.3s, color 0.3s;
 }
-
-/* Menu item hover effect */
 nav ul li a:hover {
     background-color: #555;
     color: #00d1bf;
 }
-
-/* Scrolled effect */
 .scrolled {
     background-color: #222;
 }
-
-/* Main content styling */
 main {
     padding-top: 60px; /* Make space for the fixed header */
 }
